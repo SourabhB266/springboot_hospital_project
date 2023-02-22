@@ -1,7 +1,5 @@
 package com.ty.springboot_hospital_project.service;
 
-import javax.validation.ConstraintViolationException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +8,6 @@ import org.springframework.stereotype.Service;
 import com.ty.springboot_hospital_project.dao.HospitalDao;
 import com.ty.springboot_hospital_project.dto.Hospital;
 import com.ty.springboot_hospital_project.exception.HospitalNotFoundException;
-import com.ty.springboot_hospital_project.exception.IdNotFoundException;
 import com.ty.springboot_hospital_project.util.ResponseStructure;
 
 @Service
